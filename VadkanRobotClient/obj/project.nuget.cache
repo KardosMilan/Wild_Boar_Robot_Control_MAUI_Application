@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ghnGzQK0r80=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Asus\\Documents\\05_Projects\\GitHub\\Wild_Boar_Robot_Control_MAUI_Application\\VadkanRobotClient\\VadkanRobotClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.55\\microsoft.windows.sdk.net.ref.10.0.19041.55.nupkg.sha512"
+  ],
+  "logs": []
+}
