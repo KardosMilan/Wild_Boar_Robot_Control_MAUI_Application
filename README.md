@@ -36,6 +36,12 @@ This project consists of two components working together over HTTP:
 - Dependency Injection via `MauiProgram.cs`
 - MVVM architecture with `ICommand`, `INotifyPropertyChanged`, and `IValueConverter` bindings
 
+**Main Page**
+![Main Window](Pictures/MainPage.png)
+
+**Settings Page**
+![Main Window](Pictures/SettingsPage.png)
+
 ---
 
 ## Architecture
