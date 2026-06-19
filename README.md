@@ -1,4 +1,4 @@
-# wild Boar Robot — Control Client & Simulator
+# Wild Boar Robot — Control Client & Simulator
 
 A full-stack robot diagnostics system built with **.NET MAUI** (client) and **ASP.NET Core Web API** (simulator), enabling real-time robot control and telemetry visualization through a cross-platform graphical interface.
 
