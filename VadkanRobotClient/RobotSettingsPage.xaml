@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VadkanRobotClient.RobotSettingsPage"
+             Title="Robot Settings"
+             BackgroundColor="#121212">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Server URL -->
+            <Label Text="Server Url"
+                   FontSize="12"
+                   TextColor="#888888"/>
+            
+            <Frame Padding="10"
+                   CornerRadius="12"
+                   HasShadow="True"
+                   BackgroundColor="#1E1E1E">
+
+                <Entry Placeholder="Server URL"
+                       Text="{Binding ServerUrl}"
+                       TextColor="White"
+                       PlaceholderColor="#AAAAAA"
+                       BackgroundColor="Transparent"
+                       FontSize="16"/>
+            </Frame>
+            
+            <!-- SPEED -->
+            <Label Text="Movement speed (1 - 10)"
+                   FontSize="12"
+                   TextColor="#888888"/>
+            
+            <Frame Padding="10"
+                   CornerRadius="12"
+                   HasShadow="True"
+                   BackgroundColor="#1E1E1E">
+
+                <Entry Placeholder="Speed"
+                       Text="{Binding Speed}"
+                       TextColor="White"
+                       PlaceholderColor="#AAAAAA"
+                       BackgroundColor="Transparent"
+                       FontSize="16"/>
+            </Frame>
+            
+            
+
+            <!-- ROTATION ANGLE -->
+            <Label Text="Rotation speed (1° - 45°)"
+                   FontSize="12"
+                   TextColor="#888888"/>
+            
+            <Frame Padding="10"
+                   CornerRadius="12"
+                   HasShadow="True"
+                   BackgroundColor="#1E1E1E">
+
+                <Entry Placeholder="Rotation Speed"
+                       Text="{Binding RotationSpeed}"
+                       TextColor="White"
+                       PlaceholderColor="#AAAAAA"
+                       BackgroundColor="Transparent"
+                       FontSize="16"/>
+            </Frame>
+
+            <!-- Sensor distance-->
+            <Label Text="Sensor distance (1 - 20)"
+                   FontSize="12"
+                   TextColor="#888888"/>
+
+            <Frame Padding="10"
+                   CornerRadius="12"
+                   HasShadow="True"
+                   BackgroundColor="#1E1E1E">
+
+                <Entry Placeholder="Sensor Distance"
+                       Text="{Binding SensorDistance}"
+                       TextColor="White"
+                       PlaceholderColor="#AAAAAA"
+                       BackgroundColor="Transparent"
+                       FontSize="16"/>
+            </Frame>
+
+            <!-- Collision distance -->
+            <Label Text="Collision distance (0 - 5)"
+                   FontSize="12"
+                   TextColor="#888888"/>
+
+            <Frame Padding="10"
+                   CornerRadius="12"
+                   HasShadow="True"
+                   BackgroundColor="#1E1E1E">
+
+                <Entry Placeholder="Collision Distance"
+                       Text="{Binding CollisionDistance}"
+                       TextColor="White"
+                       PlaceholderColor="#AAAAAA"
+                       BackgroundColor="Transparent"
+                       FontSize="16"/>
+            </Frame>
+
+            <!-- SAVE BUTTON -->
+            <Button Text="Save"
+                    Command="{Binding SaveCommand}"
+                    BackgroundColor="#228B22"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="12"
+                    HeightRequest="45"/>
+
+            <!-- BACK BUTTON -->
+            <Button Text="Back"
+                    Command="{Binding BackCommand}"
+                    BackgroundColor="#555555"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="12"
+                    HeightRequest="45"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>
